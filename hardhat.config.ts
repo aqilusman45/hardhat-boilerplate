@@ -1,13 +1,7 @@
 import "@nomicfoundation/hardhat-toolbox"
-import "@typechain/hardhat"
-import "@nomiclabs/hardhat-waffle"
-import "@nomiclabs/hardhat-etherscan"
-import "@nomiclabs/hardhat-ethers"
-import "hardhat-gas-reporter"
+import "@nomicfoundation/hardhat-chai-matchers"
 import "dotenv/config"
-import "solidity-coverage"
 import "hardhat-deploy"
-import "solidity-coverage"
 
 import { HardhatUserConfig } from "hardhat/config"
 /**
